@@ -19,12 +19,19 @@
     }
     .banner-container {
         flex-direction: column-reverse;
+        align-items: center;
     }
     .section-images{
         flex-direction: column;
         align-items: center;
         margin-bottom: 12px;
     }
+    .images-description{
+        margin-top: 5px;
+        padding-left: 5px;
+    }
+
+
 }
 
 /*Responsive for Tablet device*/

@@ -135,9 +135,7 @@ header {
     background-color: #4EC5F7;
     border: 0;
 }
-.banner-images{
-    width:100%;
-}
+
 /*Funny videos section style*/
 .funny-videos-section {
     max-width: 1240px;
@@ -178,9 +176,61 @@ header {
     gap: 10px;
 }
 
-.section-images >img {
+.section-images>img {
     gap: 10px;
     width: 310px;
     height: 400px;
     border-radius: 16px;
+}
+
+.images-description {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 310px;
+}
+/*Footer section style*/
+footer{
+    background-color: #0B0223;
+    min-height: 200px;
+}
+
+.footer-content {
+    width:100%;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+#footer-logo {
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo-title {
+    color: #fff;
+}
+
+.footer-menubar {
+    margin-top: 30px;
+}
+
+.footer-menubar a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 30px;
 }

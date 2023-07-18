@@ -66,5 +66,70 @@ header {
 .follow-us-btn {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding:10px 20px;
+    padding: 10px 20px;
+}
+
+/*Banner section style*/
+.banner {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.banner-container {
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner-content h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom:5px;
+
+}
+
+.banner-content h1 {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
+}
+
+.banner-content p {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.button-primary {
+    margin-top: 30px;
+    padding: 19px 40px;
+    font-size: 1.1rem;
+    gap: 10px;
+    color:#fff;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    border: 0;
+}
+.button-secondary{
+     margin-top: 30px;
+    padding: 19px 40px;
+    font-size: 1.1rem;
+    gap: 10px;
+    color:#fff;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    border: 0;
 }

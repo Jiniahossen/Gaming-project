@@ -1,4 +1,70 @@
-*{
-    margin:0 ;
-    padding:0;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Nav bar style*/
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px 0px;
+
+}
+
+.logo-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-image {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.logo-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.logo-title-text {
+    color: #ff42a5;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 32px;
+}
+
+.follow-us-btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding:10px 20px;
 }

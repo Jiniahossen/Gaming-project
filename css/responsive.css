@@ -1,87 +1,121 @@
 /* Responsive for Mobile Decive*/
 
 @media screen and (max-width:576px) {
-    header{
+    header {
         box-shadow: none;
     }
+
     .nav-container {
-     flex-direction: column;
-     padding:40px 0px;
-     align-items: center;
+        flex-direction: column;
+        padding: 40px 0px;
+        align-items: center;
     }
+
     .menu-item {
         flex-direction: column;
         align-items: center;
     }
-    .menu-item a{ 
+
+    .menu-item a {
         margin-top: 25px;
 
     }
+
     .banner-container {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .section-images{
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 12px;
+
+    .banner-images {
+        width: 400px;
+        padding: 100px 0px;
     }
-    .images-description{
+
+    .section-images {
+        grid-template-columns:repeat(1, 1fr);
+        gap:20px;
+
+    }
+
+    .images-description {
         margin-top: 5px;
         padding-left: 5px;
     }
 
-    .play-games-container{
+    .play-games-container {
         flex-direction: column-reverse;
     }
+
     .play-games-section-content {
         text-align: center;
-        margin:0 10px;
+        margin: 0 10px;
     }
-    .play-games-section-description{
+
+    .play-games-section-description {
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
 
     }
-    
-    .games-buttons{
-        gap:15px;
-        
+
+    .games-buttons {
+        gap: 15px;
+
     }
-    .games-btn{
-        width:100px;
-        background-color:transparent;
+
+    .games-btn {
+        width: 100px;
+        background-color: transparent;
     }
-    
+
     .button-images {
         width: 30px;
         height: 30px;
-    
+
     }
+
     .games-button-content {
         font-size: 0.8rem;
         margin-left: 5px;
     }
-    .footer-menubar{
-        grid-template-columns: repeat(3,1fr);
-        gap:15px;
+
+    .footer-menubar {
+        grid-template-columns:repeat(3, 1fr);
+        gap: 15px;
     }
-    .footer-menubar-two{
-        grid-template-columns: repeat(2,1fr);
-        gap:15px;
+
+    .footer-menubar-two {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
 
 
 }
 
 /*Responsive for Tablet device*/
-@media screen and(max-width:768px) {
-    .logo-image{
-        padding-left: 10px;
-    }
+@media screen and (min-width:576.5px)and(max-width:768px) {
+
     .logo-title {
         font-size: 2rem;
     }
-    
+
+    .menu-item {
+        font-size: 1.1rem;
+    }
+
+    .banner-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .section-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+    }
 }

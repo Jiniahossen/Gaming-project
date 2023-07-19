@@ -79,17 +79,15 @@ header {
 }
 
 /*Banner section style*/
+
 .banner {
-    background-image: url(../images/Group\ 14.png);
-    background-repeat: no-repeat;
-    background-position: left;
     margin-bottom: 100px;
+    max-width: 1240px;
+    margin: 0 auto;
 }
 
 .banner-container {
     margin-bottom: 100px;
-    max-width: 1240px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,12 +97,12 @@ header {
 .banner-content{
     width:100%;
     align-items: center;
-    padding:100px 0px;
+    padding:100px 10px;
 }
 
 .banner-content h2 {
     color: #0B0223;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 600;
     margin-bottom: 5px;
 
@@ -112,7 +110,7 @@ header {
 
 .banner-content h1 {
     
-    font-size: 95px;
+    font-size: 90px;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -137,7 +135,7 @@ header {
 }
 
 .button-primary {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 19px 40px;
     font-size: 1.1rem;
     gap: 10px;
@@ -148,7 +146,7 @@ header {
 }
 
 .button-secondary {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 19px 40px;
     font-size: 1.1rem;
     gap: 10px;
@@ -177,9 +175,10 @@ header {
 }
 
 .section-images{
+    width: auto;
     display:flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -273,6 +272,7 @@ header {
 }
 
 /*Play Games section*/
+
 .play-games-section {
     max-width: 1240px;
     margin: 100px auto 200px;
@@ -288,7 +288,7 @@ header {
 
 .images {
     position: relative;
-    width: 600px;
+    width:50%;
 
 }
 
@@ -309,6 +309,7 @@ header {
 
 .play-games-section-content{
     margin-left: 200px;
+    width:50%
 }
 
 .play-games-section-title {

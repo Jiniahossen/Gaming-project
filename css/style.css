@@ -68,6 +68,13 @@ header {
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 20px;
 }
+.fa-brands{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.youtube{
+    color:red;
+}
 
 /*Banner section style*/
 .banner {
@@ -196,13 +203,11 @@ header {
 .play-games-section {
     width: 1240px;
     margin: 0 auto;
-    border:1px solid rgb(255, 156, 6);
 }
 
 .play-games-container {
     margin: 50px 0px;
     width:50%;
-    border:1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,7 +227,6 @@ header {
 
 .play-games-section-content {
     width:50%;
-    border:1px solid tomato;
     text-align: end;
 }
 
@@ -250,16 +254,22 @@ header {
 
 /*Games button section style*/
 
+.games-button-area{
+    margin: 80px auto 0px;
+    background-color:#fff9fc;
+    min-height: 400px;
 
+}
 .games-buttons {
-    min-height: 200px;
     max-width: 1440px;
-    margin: 50px auto;
+    padding:100px 0px 0px;
+    width:auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     align-items: center;
+   
 
 }
 
@@ -268,8 +278,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 0px;
     border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50px;
 
 }
 
@@ -290,7 +302,7 @@ header {
 .games-btn:hover {
     border: 1px solid #F948B2;
     border-radius: 50px;
-    padding: 10px 10px;
+    padding: 10px 0px;
     color: #F948B2;
 }
 
@@ -337,6 +349,22 @@ footer {
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+}
+.icone-bar{
+    max-width:700px ;
+    margin: 30px auto;
+}
+.fa-brands{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.facebook{
+    color: #1a77f2;
+
+}
+.twitter{
+    color:#fff;
+
 }
 
 .footer-menubar-two {

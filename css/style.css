@@ -163,6 +163,7 @@ header {
 }
 
 /*Funny videos section style*/
+
 .funny-videos-section {
     max-width: 1240px;
     margin: 0 auto;
@@ -175,7 +176,7 @@ header {
 }
 
 .section-images{
-    width: auto;
+   
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -185,12 +186,14 @@ header {
 .image-overlay {
     position: relative;
     display: inline-block;
+    height: 400px;
 }
 
 .card-image {
     display: block;
     width: 300px;
-    height: auto;
+    height:100%;
+    align-items: center;
 }
 
 .overlay {
@@ -265,10 +268,10 @@ header {
 .images-description {
     color: #534C64;
     font-size: 1rem;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 310px;
+    font-weight:500;
+    margin-top:10px;
+    margin-bottom:20px;
+    width:310px;
 }
 
 /*Play Games section*/
@@ -288,7 +291,7 @@ header {
 
 .images {
     position: relative;
-    width:50%;
+    width:600px;
 
 }
 

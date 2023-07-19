@@ -32,8 +32,8 @@
     }
 
     .section-images {
-        grid-template-columns:repeat(1, 1fr);
-        gap:20px;
+       flex-direction: column;
+       margin-bottom: 12px;
 
     }
 
@@ -44,7 +44,7 @@
 
     .play-games-container {
         flex-direction: column-reverse;
-    }
+  }
 
     .play-games-section-content {
         text-align: center;
@@ -73,6 +73,7 @@
         height: 30px;
 
     }
+    
 
     .games-button-content {
         font-size: 0.8rem;
@@ -113,9 +114,34 @@
         align-items: center;
     }
 
+    .banner-content h2 {
+        font-size: 2rem;
+    
+    }
+    
+    .banner-content h1 {
+        
+        font-size: 2.5rem;
+    
+    }
+    
+    .banner-content p {
+        font-size: 1rem;
+    }
+    .button-primary {
+        padding: 15px 30px;
+    }
+    
+    .button-secondary {
+        padding: 15px 30px;
+    }
+
     .section-images {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap:20px;
+        flex-direction: column;
+        margin-bottom: 12px;
+ 
+     }
+    .play-games-container {
+          flex-direction: column-reverse;
     }
 }

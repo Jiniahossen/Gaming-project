@@ -83,6 +83,7 @@ header {
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: 100px;
 }
 
 .banner-container {
@@ -176,8 +177,8 @@ header {
 }
 
 .section-images{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display:flex;
+    justify-content: space-around;
 
 }
 

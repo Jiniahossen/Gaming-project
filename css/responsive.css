@@ -30,6 +30,31 @@
         margin-top: 5px;
         padding-left: 5px;
     }
+
+    .play-games-container{
+        flex-direction: column-reverse;
+    }
+    .play-games-section-content {
+        text-align: center;
+        margin:0 10px;
+    }
+    .play-games-section-description{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    
+    .games-buttons{
+        gap:10px;
+        
+    }
+    .games-btn{
+        width:150px;
+    }
+    .games-button-content{
+        margin-left: 5px;
+    }
     .footer-menubar{
         grid-template-columns: repeat(3,1fr);
         gap:20px;
